@@ -13,7 +13,8 @@ body {
     margin: 0;
     padding: 0;
     height: 45vh;
-    
+    display: flex;
+    align-items: center;
 }
 
 #websiteReviews {
@@ -71,12 +72,6 @@ body {
     
 }
 
-.container {
-    margin: 0;
-    
-    
-
-  }
   
   #websiteReviews {
     display: flex;
