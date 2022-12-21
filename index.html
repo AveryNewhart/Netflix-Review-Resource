@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Review Resource</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  </head>
+
+
+  <body>
+    <header class="main-header box">
+        <h1>NETFLIX</h1>
+        <h2>Review Resource</h2>
+       </header>
+    
+    <section class="container">
+      <div class="row">
+        <div class="col-3 search-card box">
+          <div id="netflixSearchHead">
+            <h2>Search Movie or Show</h2>
+          </div>
+
+          <div id="searchInput">
+            <input
+              type="text"
+              placeholder="Search For Movies or Shows"
+              id="searchedMovie"
+              class="userSearchClass"
+            />
+          </div>
+
+          <div id="searchBtn">
+            <button type="submit" id="clickSearch">Search</button>
+          </div>
+        </div>
+
+        <div id="websiteReviews" class="col-9">
+          <div id="rottenT" class="rottenTStyle box">
+            <h4 id="rottenTHead">Rotten Tomatoes</h4>
+          </div>
+          <div id="netflixInfo" class="netflixInfoStyle box">
+            <h4 id="newflixReviewHead">Neflix Info</h4>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="container bottom">
+      <div class="row">
+        <div id="history" class="search-hist col-3">
+          <div id="searchHistoryHead" class="box">
+            <h2>Recent Searches</h2>
+          </div>
+          <div id="listSearchHistory"></div>
+        </div>
+
+        <div id="reviewSection" class="col-9 box">
+          <div id="userReview" class="box">
+            <input
+              type="text"
+              placeholder="Enter Username"
+              id="userName"
+              class="userNameClass"
+            />
+
+            <input 
+                
+              type="text"
+              placeholder="Enter review here"
+              id="userInput"
+              class="userReviewClass"
+                />
+          
+                
+                    
+          </div>
+
+          <div id="submitBtn" class="align-right"> 
+           
+            <button type="submit">Submit</button>
+
+           
+            
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    
+    
+    
+    
+  </body>
+</html>
