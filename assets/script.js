@@ -31,6 +31,3 @@ function submitReview() {
     window.location.assign('./review.html');
 
 };
-
-
-    

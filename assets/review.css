@@ -6,8 +6,20 @@ body, html {
 	line-height: 1.5;
 	font-size: 16px;
     height: 100%;
-    text-align: center;
     
+}
+
+h1 {
+    margin-left: 1%;
+}
+
+.btn {
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 15%;
+    margin: 1%;
 }
 
 #page {
@@ -15,7 +27,7 @@ body, html {
 background: linear-gradient(0deg, rgba(82,71,70,1) 0%, rgba(218,5,5,1) 100%);
 	background-repeat: no-repeat;
     height: 100vh;
-    margin-top: -21px;
+    margin-top: -22px;
 }
 
 img.bg {
@@ -25,27 +37,13 @@ img.bg {
 }     
 
 #ReviewHead {
-    text-align: center;
     font-size: xx-large;
 }
 .reviewHead {
-    position: fixed;
     top: 0;
     left: 0;
-    z-index: 999;
     width: 100%;
     height: 23px;
-    
-}
-
-.btn {
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 250px;
-    border-radius: 15%;
 }
 
 footer {
