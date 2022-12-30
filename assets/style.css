@@ -399,6 +399,10 @@ p {
     
 }
 
+.placeholderImg {
+	height: 50px;
+}
+
 footer {
 	color: rgb(255, 70, 70);
 }
@@ -408,4 +412,15 @@ footer {
 .userNameClass {
     text-align: right;
     border: 0;
+}
+
+@media screen and (max-width: 992px) {
+	.grid {
+	  width: 50%;
+	}
+}
+  @media screen and (max-width: 768px) {
+	.grid {
+	  width: 100%;
+	}
 }
