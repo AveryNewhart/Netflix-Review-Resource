@@ -14,4 +14,5 @@ reviewListEl.innerHTML = userReviews
 //clear reviews
 function clearReviews() {
     localStorage.clear();
+    reviewListEl.innerHTML = "";
 }

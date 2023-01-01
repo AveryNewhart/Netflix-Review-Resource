@@ -9,6 +9,7 @@ const userFeedbackEl = document.getElementById("userFeedback");
 let listSearchHistEl = document.getElementById("listSearchHistory");
 let userSearchEl = document.getElementById("searchedMovie");
 
+
 //setting the review to local storage
 //setting the content to be saved as an array
 const userReviews = JSON.parse(localStorage.getItem('userReviews')) || [];
@@ -18,6 +19,7 @@ const reviews = document.getElementById("userInput");
 
 const searchMessage = {};
 const openSesame = 'f1e2db7221msh65dad2e58f9a559p1d090djsn8e7db435221e';
+
 
 function submitReview() {
 
@@ -33,6 +35,7 @@ function submitReview() {
     window.location.assign('./review.html');
 
 };
+
 
 // Get user input to perform search
 let searchNetflixMovies = function (event) {
@@ -137,9 +140,9 @@ let displayErrorMessages = function (errorMessage) {
 }
 
 // close the modal
-closeModalEl.onclick = function() {
-    userFeedbackEl.textContent = '';
-    myModalEl.style.display = "none";
-}
+// closeModalEl.onclick = function() {
+//     userFeedbackEl.textContent = '';
+//     myModalEl.style.display = "none";
+// }
 
 searchButtonEl.addEventListener('click', searchNetflixMovies);
