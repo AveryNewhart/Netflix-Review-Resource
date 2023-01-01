@@ -10,46 +10,54 @@
   <link rel="stylesheet" type="text/css" href="./assets/style.css" />
   
 </head>
- <!--Top Example-->
+
 <body>
  
     <header class="main-header box">
-        <img src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png"    width="400"
-        height="180"/>
     
-    
+        <h1>NETFLIX</h1>
         <h2>Review Resource</h2>
+
+      
+            </div>
+
+
+
+            <div class='content-wrapper'>
+              <div class='navmenu'>
+                <input type="text" placeholder="Search For Movies" id="searchedMovie">
+                    <button type="submit" id="searchBtn">Search</button>
+                
+                    <a href="./review.html" id="button-submit"><button>Your Reviews</button></a>      
+          
+           </div>
+            </div>
+           <div style='clear: both;'>
+           
+    
+    </div>
+
       </header>
 
-    <div class="background">
 
         
 
-        <div id="searchInput">
-            <input type="text" placeholder="Search For Movies" id="searchedMovie" class="userSearchClass">
-            <div id="searchBtn">
-                <button type="submit">Search</button>
-              </div>
-              <div id="searchHistoryHead" class="box">
-
-                <a href="./review.html" class="ReviewPos" id="ReviewLink"><button class="btn btnReview">Your Reviews</button></a>      
-              </div>
-    </div>
+    
 
     <div class="grid">
-        <div class="one">
-          <div id="netlixInfo" class="netflixInfoStyle">
-          <h4 id="rottenTHead">IMDB Reviews</h4>
-          <div id="movieReviews"></div>
-          </div>
+      <div class="one">
+        <div id="netlixInfo" class="netflixInfoStyle">
+        <h4 id="rottenTHead">IMDB Reviews</h4>
+        <div id="movieReviews"></div>
         </div>
-        <div class="two">
-          <div id="netflixInfo" class="netflixInfoStyle">
-            <h4 id="newflixReviewHead">Neflix Info</h4>
-            <div id="displayedImg"><img src="./assets/netlifcplace.png" alt="Netflix Icon" class="placeholderImg"></div>
-            <div id="movieInfo"></div>            
-          </div>
+      </div>
+      <div class="two">
+        <div id="netflixInfo" class="netflixInfoStyle">
+          <h4 id="newflixReviewHead">Neflix Reviews</h4>
+          <img src="./assets/netlifcplace.png" alt="Netflix Icon" class="placeholderImg" id="displayedImg">
+          <div id="movieInfo"></div>
         </div>
+      </div>
         <div class="three">
           <div id="userReview" class="box">
             <textarea placeholder="Enter your review here" id="userInput" class="userReviewClass" ></textarea>
@@ -63,23 +71,13 @@
         
       </div>
       </div>
-      <!-- The Modal for displaying errors to the user-->
-      <div id="myModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-          <span id="closeBtn" class="close">&times;</span>
-          <p id="userFeedback"></p>
-          
-        </div>
-
-      </div>
-
 
       <footer>
         <p>DAPIJ Crew 2022</p>
       </footer>
+      
       <script src="./assets/script.js"></script>
+
 </body>
 
 
