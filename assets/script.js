@@ -140,9 +140,9 @@ let displayErrorMessages = function (errorMessage) {
 }
 
 // close the modal
-// closeModalEl.onclick = function() {
-//     userFeedbackEl.textContent = '';
-//     myModalEl.style.display = "none";
-// }
+ closeModalEl.onclick = function() {
+     userFeedbackEl.textContent = '';
+     myModalEl.style.display = "none";
+ }
 
 searchButtonEl.addEventListener('click', searchNetflixMovies);
