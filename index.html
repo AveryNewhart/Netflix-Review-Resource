@@ -45,17 +45,19 @@
     
 
     <div class="grid">
+      <div class="two">
+        <div id="netflixInfo" class="netflixInfoStyle">
+          <h4 id="newflixReviewHead">Netflix Info</h4>
+          <div id="displayedImg">
+          <img src="./assets/netlifcplace.png" alt="Netflix Icon" class="placeholderImg">
+          </div>
+          <div id="movieInfo"></div>
+        </div>
+      </div>
       <div class="one">
         <div id="netlixInfo" class="netflixInfoStyle">
         <h4 id="rottenTHead">IMDB Reviews</h4>
         <div id="movieReviews"></div>
-        </div>
-      </div>
-      <div class="two">
-        <div id="netflixInfo" class="netflixInfoStyle">
-          <h4 id="newflixReviewHead">Neflix Reviews</h4>
-          <img src="./assets/netlifcplace.png" alt="Netflix Icon" class="placeholderImg" id="displayedImg">
-          <div id="movieInfo"></div>
         </div>
       </div>
         <div class="three">
@@ -71,6 +73,18 @@
         
       </div>
       </div>
+
+      <!-- The Modal for displaying errors to the user-->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span id="closeBtn" class="close">&times;</span>
+        <p id="userFeedback"></p>
+
+      </div>
+
+    </div>
 
       <footer>
         <p>DAPIJ Crew 2022</p>
