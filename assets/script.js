@@ -23,6 +23,13 @@ const openSesame = 'f1e2db7221msh65dad2e58f9a559p1d090djsn8e7db435221e';
 
 function submitReview() {
 
+ // Use a modal
+ if (!reviews.value || !reviews.value.length) {
+    displayErrorMessages("Please enter movie review before submitting!!");
+    return;
+} 
+
+
     const review = {
         title: userSearchEl.value,
         username: username.value,
