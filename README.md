@@ -20,10 +20,10 @@
 
 ## Usage
 
-![screenshot of website](./assets/firsthtmlSS.png)
+![screenshot of website](./assets/firstSS.png)
 
-![screenshot of website](./assets/secondhtmlSS.png)
+![screenshot of website](./assets/secondSS.png)
 
 ![screenshot of website](./assets/thirdhtmlSS.png)
 
-- link to deployed website
+- link to webpage https://averynewhart.github.io/Netflix-Review-Resource/
